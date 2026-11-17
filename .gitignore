@@ -1,0 +1,24 @@
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Data
+data/
+
+# Trained models and generated outputs
+models/*
+!models/.gitkeep
+
+# Secrets and configuration
+.env
+.env.*
+config.json
+
+# IDE and operating system
+.DS_Store
+.vscode/
